@@ -1,0 +1,132 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-04T04:45:35.695Z",
+        "line": 31,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1589900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters \"sam\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sam\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.user_enters_in_the_field1(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters \"12345\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12345\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.user_enters_in_the_field1(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-04T04:45:35.710Z",
+        "line": 32,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario-outline;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 238400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters \"vishal\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"vishal\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.user_enters_in_the_field1(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters \"224455\" in the field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"224455\"",
+                  "offset": 12
+                }
+              ],
+              "location": "Login.user_enters_in_the_field1(String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "classpath:packy/Check.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
